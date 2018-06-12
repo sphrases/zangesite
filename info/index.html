@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zange</title>
+    <link rel="stylesheet" href="../css/info.css">
+</head>
+<body>
+
+<div class="center">
+    <img class="headerImg" id="header" src="../res/header.png"/>
+
+    <a class="link" href="https://www.instagram.com/zange_official/"><img class="instaImg" src="../res/instaLink.png"
+                                                                          onmouseover="changeImg('header2')"
+                                                                          onmouseout="changeImg('header')"/></a>
+</div>
+
+</body>
+<script>
+    console.log("ZANGE!");
+
+    function changeImg(target) {
+        switch (target) {
+            case "header":
+                document.getElementById("header").src = "../res/header.png";
+
+                break;
+            case "header2":
+                document.getElementById("header").src = "../res/header2.png";
+                break;
+
+        }
+    }
+
+</script>
+</html>
