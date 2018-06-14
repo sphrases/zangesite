@@ -1,0 +1,16 @@
+video {
+    height: 300px;
+    width: auto;
+    margin: 0px auto;
+}
+
+video:nth-child(2) {
+    border: 20px blue;
+}
+
+.centerVideos {
+    width: 20%;
+    display: block;
+    border: 5px green;
+
+}
