@@ -20,6 +20,15 @@ body {
     width: auto;
 }
 
+.headerImgSmall {
+    padding-top: 2%;
+    padding-bottom: -3%;
+    display: block;
+    margin: 0px auto;
+    height: auto;
+    width: 20%;
+}
+
 .instaImg {
     display: block;
     margin: 0px auto;
@@ -29,4 +38,13 @@ body {
 
 .link {
     height: 10%;
+}
+
+
+#playerElement {
+    display: block;
+    margin: 0px auto;
+    width: 896px;
+    height: 504px;
+
 }
