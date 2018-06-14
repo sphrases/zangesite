@@ -7,18 +7,38 @@
     <link rel="stylesheet" href="../css/info.css">
 
 
-    <script src="https://rtcmulticonnection.herokuapp.com/dist/RTCMultiConnection.min.js"></script>
-    <script src="https://rtcmulticonnection.herokuapp.com/socket.io/socket.io.js"></script>
 
 
 </head>
 <body>
 <div class="centerVideos">
-    <video id="video"></video>
+
 </div>
 
 
+<form action="#" method="post" id="demoForm" class="demoForm">
+        <p>
+            <select id="scripts" name="scripts">
+                <option value="zange">Zange Channel</option>
+                <option value="Hundekuchen">Hundekuchen Channel</option>
+                <option value="boii">Boii Channel</option>
+                <option value="mum">Deine Mutter ihr Channel</option>
+                <option value="han">Han Solos Channel</option>
+            </select>
+        </p>
+        <p>
+            <input type="button" id="showVal" value="Value Property" />
+        </p>
 
+</form>
+
+
+
+
+
+
+<script src="https://rtcmulticonnection.herokuapp.com/dist/RTCMultiConnection.min.js"></script>
+<script src="https://rtcmulticonnection.herokuapp.com/socket.io/socket.io.js"></script>
 <script src="../js/webrtcConfig.js"></script>
 <link rel="stylesheet" href="../css/chat.css">
 </body>
