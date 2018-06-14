@@ -55,10 +55,10 @@ if (hasUserMedia()) {
 
     //enabling video and audio channels
     navigator.getUserMedia(constraints, function (stream) {
-        //var video = document.querySelector('video');
+        var video = document.querySelector('video');
 
         //inserting our stream to the video tag
-        // video.src = window.URL.createObjectURL(stream);
+        video.src = window.URL.createObjectURL(stream);
 
         // if you want audio+video conferencing
 

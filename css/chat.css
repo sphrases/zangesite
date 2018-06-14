@@ -1,7 +1,8 @@
 video {
-    height: 300px;
+    height: 500px;
     width: auto;
-    margin: 0px auto;
+    display: block;
+    /* margin: 0px auto; */
 }
 
 video:nth-child(2) {
@@ -12,5 +13,5 @@ video:nth-child(2) {
     width: 20%;
     display: block;
     border: 5px green;
-
+    margin: 0px auto;
 }
